@@ -15,7 +15,6 @@ class CatalogTest {
     catalogService.buildCatalog()
   }
 
-
   @Test
   def testGetCatalogShouldNotEmpty(): Unit ={
     val catalog =catalogService.getCatalog()
