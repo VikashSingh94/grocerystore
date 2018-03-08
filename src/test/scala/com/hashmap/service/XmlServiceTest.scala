@@ -1,7 +1,6 @@
 package com.hashmap.service
 import java.io.FileNotFoundException
 
-import com.hashmap.dao.CatalogDaoImpl
 import org.junit.{Assert, Before, Test}
 
 
@@ -11,7 +10,7 @@ class XmlServiceTest {
 
   @Before
   def initialize(): Unit ={
-     xmlService = new XmlService(new CatalogDaoImpl)
+     xmlService = new XmlService()
   }
 
   @Test(expected = classOf[FileNotFoundException])

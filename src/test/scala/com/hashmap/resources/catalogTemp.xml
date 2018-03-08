@@ -3,6 +3,21 @@
     <items>
 
         <item>
+            <id>72da72bf-3f0e-483b-aafb-0464914f9d8e</id>
+            <name>vim  soap</name>
+            <uom>gm</uom>  <!-- Unit Of Measure -->
+            <unitSize>10</unitSize>
+            <unitPrice>
+                <amount>12.00</amount>
+                <currency>INR</currency>  <!-- Currency alpha3code -->
+            </unitPrice>
+            <quantity>
+                <stock>100</stock>
+                <measure>unit</measure>
+            </quantity>
+        </item>
+
+        <item>
             <id>ff8debf6-332f-4807-96a4-2e7c62af3fc8</id>
             <name>LUX bath soap</name>
             <uom>gm</uom>  <!-- Unit Of Measure -->
@@ -16,6 +31,7 @@
                 <measure>unit</measure>
             </quantity>
         </item>
+
 
     </items>
 

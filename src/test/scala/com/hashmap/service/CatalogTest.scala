@@ -9,7 +9,7 @@ class CatalogTest {
 
   @Before
   def initialize(): Unit ={
-    val xmlService = new XmlService(new CatalogDaoImpl)
+    val xmlService = new XmlService()
     val xmlFilePath = "/home/vikash/Downloads/file.xml"
     catalogService = new CatalogService(xmlFilePath,new CatalogDaoImpl,xmlService)
     catalogService.buildCatalog()

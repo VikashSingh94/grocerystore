@@ -9,6 +9,8 @@ class CatalogDaoImpl extends CatalogDao[Item] {
 
   override def addItem(item:Item): Unit = dataBase.add(item)
 
+  override def updateItem(item: Item): Unit = dataBase.update(item)
+
   override def getItems(): List[Item] = dataBase.getAll()
 
 }

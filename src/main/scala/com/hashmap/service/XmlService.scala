@@ -1,11 +1,9 @@
 package com.hashmap.service
 
-import com.hashmap.dao.CatalogDaoImpl
 import com.hashmap.model.Item
-
 import scala.xml.XML
 
-class XmlService(catalogDao : CatalogDaoImpl) {
+class XmlService() {
 
   def readXml(XmlFilePath: String): List[Item] = {
 
